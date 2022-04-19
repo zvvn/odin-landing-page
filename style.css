@@ -48,6 +48,8 @@ table {
 }
 
 /* END CSS RESET */
+
+/* header */
 .header, .topbar, .links, .main, .signup, .content, .quote, .footer {
   display: flex;
 }
@@ -84,7 +86,7 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: gray;
 }
 
 .links {
@@ -100,11 +102,7 @@ a:hover {
 .header p {
   color: #E5E7EB;
   font-size: 18px;
-}
-
-.smallimg {
-  width: 200px;
-  height: 200px;
+  padding-right: 68px;
 }
 
 .header {
@@ -121,8 +119,31 @@ a:hover {
   flex-direction: column;
 }
 
+.signup button, .signup p {
+  margin-top: 12px;
+}
+
 button {
-  width: 80px;
+  width: 84px;
   background-color: #3882F6;
   color: white;
+  padding: 6px 16px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
 }
+
+button:active {
+  background-color: gray;
+}
+
+/* information section */
+
+.smallimg {
+  width: 200px;
+  height: 200px;
+}
+
+
+
+/* footer */
