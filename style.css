@@ -126,12 +126,12 @@ a:hover {
 }
 
 button {
-  width: 84px;
+  width: 90px;
   background-color: #3882F6;
   color: white;
   padding: 6px 16px;
   border-radius: 6px;
-  border: none;
+  border: 2px solid white;
   font-weight: 600;
 }
 
@@ -146,9 +146,8 @@ button:active {
   height: 150px;
 }
 
-.smallimg img {
-  border: #3882F6;
-  border-radius: 5px;
+.imgdesc img {
+  border-radius: 24px;
 }
 
 .imgs {
@@ -179,9 +178,11 @@ button:active {
 .quote p {
   color: #1F2937;
   font-size: 36px;
-  text-align: center;
-  margin-left: 150px;
-  margin-right: 150px;
+  text-align: left;
+  margin-left: 260px;
+  margin-right: 260px;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 .quote span {
@@ -189,8 +190,37 @@ button:active {
   font-weight: 800;
 }
 
+.act {
+  display: flex;
+  flex-direction: column;
+  margin-left: 48px;
+}
+.action {
+  margin: 60px 250px 60px 250px;
+  padding: 48px 60px 48px 60px;
+  background-color: #3882F6;
+  color: white;
+  justify-content: space-between;
+  border-radius: 24px;
+}
+
+.action button {
+  margin-right: 48px;
+}
+
+.action h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 /* footer */
 
-.copyright {
+.footer {
   margin-top: auto;
+  background-color: #1F2937;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
