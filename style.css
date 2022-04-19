@@ -50,7 +50,7 @@ table {
 /* END CSS RESET */
 
 /* header */
-.header, .topbar, .links, .main, .signup, .content, .quote, .footer {
+.header, .topbar, .links, .main, .signup, .content, .quote, .action, .bottom, .imgs {
   display: flex;
 }
 
@@ -70,6 +70,8 @@ h2 {
   font-size: 36px;
   font-weight: 800;
   color: #1F2937;
+  margin-top: 36px;
+  margin-bottom: 36px;
 }
 
 .logo {
@@ -140,10 +142,55 @@ button:active {
 /* information section */
 
 .smallimg {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
+.smallimg img {
+  border: #3882F6;
+  border-radius: 5px;
+}
 
+.imgs {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.imgs p {
+  max-width: 150px;
+  text-align: center;
+}
+
+.bottom {
+  flex-direction: column;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  flex-direction: column;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.quote p {
+  color: #1F2937;
+  font-size: 36px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.quote span {
+  font-size: 16px;
+  font-weight: 800;
+}
 
 /* footer */
+
+.copyright {
+  margin-top: auto;
+}
