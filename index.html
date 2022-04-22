@@ -65,5 +65,16 @@
     <p>Copyright &copy; Zvvn 2021</p>
     </div>
   </div>
+  <script>
+    const button = document.querySelector('button');
+
+    function greet() {
+      const name = prompt('What is your name?');
+      
+      alert(`Uh oh ${name}, that's a stinky name!`);
+    }
+
+    button.addEventListener('click', greet);
+  </script>
 </body>
 </html>
