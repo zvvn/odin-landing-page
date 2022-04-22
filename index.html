@@ -71,7 +71,11 @@
     function greet() {
       const name = prompt('What is your name?');
       
-      alert(`Uh oh ${name}, that's a stinky name!`);
+      if (name == '') {
+        alert('That\'s an invalid name!');
+      } else {
+          alert(`Uh oh ${name}, that's a stinky name!`);
+      }
     }
 
     button.addEventListener('click', greet);
