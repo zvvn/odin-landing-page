@@ -173,12 +173,13 @@ button:active {
   flex-direction: column;
   padding-top: 48px;
   padding-bottom: 48px;
+  text-align: center;
 }
 
 .quote p {
   color: #1F2937;
   font-size: 36px;
-  text-align: left;
+  text-align: center;
   margin-left: 260px;
   margin-right: 260px;
   font-style: italic;
@@ -188,7 +189,7 @@ button:active {
 .quote span {
   font-size: 16px;
   font-weight: 800;
-  margin-left: 700px;
+  margin-left: 500px;
 }
 
 .act {
