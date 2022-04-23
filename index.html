@@ -73,8 +73,10 @@
       
       if (name == '') {
         alert('That\'s an invalid name!');
+      } else if (typeof name == 'string') {
+        alert(`Uh oh ${name}, that's a stinky name!`);
       } else {
-          alert(`Uh oh ${name}, that's a stinky name!`);
+        alert(`No name entered`);
       }
     }
 
